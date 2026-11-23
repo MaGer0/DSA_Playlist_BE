@@ -44,8 +44,8 @@ func main() {
 
 		api.POST("/priority", playlistHandler.AddToPriority)
 
-		api.POST("/action/next", playlistHandler.Next)
-		api.POST("/action/prev", playlistHandler.Prev)
+		api.POST("/next", playlistHandler.Next)
+		api.POST("/prev", playlistHandler.Prev)
 		api.POST("/action", playlistHandler.PlaySong)
 	}
 
